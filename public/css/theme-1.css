@@ -1,0 +1,62 @@
+:root{
+    --color-orange-pastel: #FFF4E4!important;
+}
+.bg-color-orange-pastel{
+    background-color: var(--color-orange-pastel);
+}
+.images{
+    border-radius:5px;
+    box-shadow: 0 0 10px 4px grey;
+}
+
+header{
+    height: 100px;
+}
+.header-top{
+    height: 100px;
+    border-bottom: 1px solid var(--c-300-deep-orange);
+}
+.header-top>nav>ul{
+    list-style-type: none;
+}
+.header-top>nav>ul>a{
+    text-decoration: none;
+    color: var(--text-color-black);
+}
+.header-top>nav>ul>a>li{
+    text-transform: uppercase;
+}
+.header-top>.nav-brand>.titre-principal{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.header-top>.nav-brand>.titre-slogan{
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+.header-bottom{
+    height: 0px;
+}
+footer{
+    height: 100px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+.col-left,.col-center,.col-right{
+    height: 100%;
+}
+.col-icon{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    border: 1px solid var(--c-300-deep-orange);
+}
+.col-legend{
+    width: 200px;
+    text-align: center;
+    border: 1px solid var(--c-300-deep-orange);
+}
+.col-legend-text{
+    text-transform: uppercase;
+}
